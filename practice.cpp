@@ -44,11 +44,6 @@ long long rec(int i){
 }
 
 int main(){
-    cin >> N;
-    h.resize(N);
-    for(int i = 0;i < N;++i)cin >> h[i];
-
-    dp.assign(N,INF);
-
-    cout << rec(N-1) << endl;
+    pair<string,int>p("abc",3);
+    cout << p.first << dn
 }
