@@ -4,8 +4,5 @@ using namespace std;
 using ll = long long;
 
 int main(){
-    vector<int> a(3);
-    rep(i,3)cin >> a[i];
-    sort(a.begin(),a.end());
-    cout << a[0] + a[1] << endl;
+    
 }
