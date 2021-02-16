@@ -4,16 +4,11 @@ using namespace std;
 using ll = long long;
 
 int main(){
-    int k;
-    cin >> k;
+    
     vector<int> a(5);
     rep(i,5)cin >> a[i];
-    rep(i,5){
-        rep(j,5){
-                cout << "No" << endl;
-                return 0;
-            }
-        }
-    }
-    cout << "Yes" << endl;
+    int k;
+    cin >> k;
+    if(a[4]-a[0] <= k)cout << "Yay!" << endl;
+    else cout <<":(" << endl;
 }
